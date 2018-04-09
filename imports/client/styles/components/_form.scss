@@ -1,0 +1,13 @@
+.form {
+  display: flex;
+}
+
+.form__input {
+  border: 1px solid #e8e8e8;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  flex-grow: 1;  //text box set to fill empty space, default 0 no fill container
+
+}

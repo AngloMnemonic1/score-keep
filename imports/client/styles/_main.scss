@@ -1,0 +1,49 @@
+/* CSS declarations go here
+
+$red: red;
+* {
+  color: $red;
+}
+*/
+
+//Variables
+$green: #e4ede0;
+$green-alt: darken($green, 15%);  //sass functions
+
+$blue: #dfe7ed;
+$blue-alt: darken($blue, 15%);  //sass functions
+
+$red: #eddfdf;
+$red-alt: darken($red, 15%);  //sass functions
+
+* {      /* the star is a universal selector applies to all web page */
+  margin: 0;
+  padding:0;
+}
+
+html {
+  font-size: 62.5%;  // % of default size give rem a 24pixels
+}
+
+body {
+  background: #f2f2f2;
+  color: #555555;
+  font-size: 1.6rem;    //when no font size stated this default is used
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+input, button, select {
+  font-size: 1.6rem;
+}
+
+h1 {
+ font-weight: 300;
+  font-size: 2.4rem;    //rendered for display
+}
+
+@import './components/titlebar';
+@import './components/wrapper';
+@import './components/item';
+@import './components/button';
+@import './components/form';
+@import './components/player';
